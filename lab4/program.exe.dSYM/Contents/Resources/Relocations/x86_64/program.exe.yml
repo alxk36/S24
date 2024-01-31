@@ -1,0 +1,16 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     program.exe
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000035B0, symSize: 0x1B9 }
+  - { offsetInCU: 0x92, offset: 0x92, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000035B0, symSize: 0x1B9 }
+  - { offsetInCU: 0x26, offset: 0x12A, size: 0x8, addend: 0x0, symName: _mm_alloc, symObjAddr: 0x0, symBinAddr: 0x100003770, symSize: 0xE0 }
+  - { offsetInCU: 0x4D, offset: 0x151, size: 0x8, addend: 0x0, symName: _mm_alloc, symObjAddr: 0x0, symBinAddr: 0x100003770, symSize: 0xE0 }
+  - { offsetInCU: 0x91, offset: 0x195, size: 0x8, addend: 0x0, symName: _mm_free, symObjAddr: 0xE0, symBinAddr: 0x100003850, symSize: 0x59 }
+  - { offsetInCU: 0x26, offset: 0x244, size: 0x8, addend: 0x0, symName: _mm_matrix_mult, symObjAddr: 0x0, symBinAddr: 0x1000038B0, symSize: 0x147 }
+  - { offsetInCU: 0x92, offset: 0x2B0, size: 0x8, addend: 0x0, symName: _mm_matrix_mult, symObjAddr: 0x0, symBinAddr: 0x1000038B0, symSize: 0x147 }
+  - { offsetInCU: 0x26, offset: 0x36E, size: 0x8, addend: 0x0, symName: _mm_print, symObjAddr: 0x0, symBinAddr: 0x100003A00, symSize: 0xAE }
+  - { offsetInCU: 0x41, offset: 0x389, size: 0x8, addend: 0x0, symName: _mm_print, symObjAddr: 0x0, symBinAddr: 0x100003A00, symSize: 0xAE }
+  - { offsetInCU: 0x26, offset: 0x460, size: 0x8, addend: 0x0, symName: _mm_read, symObjAddr: 0x0, symBinAddr: 0x100003AB0, symSize: 0x289 }
+  - { offsetInCU: 0x42, offset: 0x47C, size: 0x8, addend: 0x0, symName: _mm_read, symObjAddr: 0x0, symBinAddr: 0x100003AB0, symSize: 0x289 }
+...
